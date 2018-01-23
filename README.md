@@ -10,11 +10,11 @@ packages if you want the install to be completely offline. All of that
 can be configured in the **preseed.cfg** which is included in the
 scripts. If a network is available then the packages need not be
 included and the network can be configured and the packages installed
-using _pkgsel_.
+using `pkgsel`.
 
 
 Rest of the options and others can be obtained from a debian
-environment using debconf-get-selections {--installer}, and then can
+environment using `debconf-get-selections {--installer}`, and then can
 be set accordingly in the **preseed.cfg**.
 
 The steps are mentioned in the Steps file.
