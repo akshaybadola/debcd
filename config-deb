@@ -1,0 +1,25 @@
+Dir {
+    ArchiveDir "deb";
+    OverrideDir "indices";
+    CacheDir "/tmp";
+};
+
+TreeDefault {
+    Directory "pool/";
+};
+
+BinDirectory "pool/main" {
+    Packages "dists/stretch/main/binary-amd64/Packages";
+    BinOverride "override";
+    ExtraOverride "override.extra";
+};
+
+Default {
+    Packages {
+        Extensions ".deb";
+        Compress ". gzip";
+    };
+    Contents {
+        Compress "gzip";
+    };
+};

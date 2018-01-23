@@ -1,0 +1,2 @@
+sed -i 's/\(\s\+\)extra\(\s\+\)/\1standard\2/' override
+sed -i 's/\(\s\+\)optional\(\s\+\)/\1standard\2/' override

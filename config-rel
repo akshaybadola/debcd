@@ -1,0 +1,6 @@
+APT::FTPArchive::Release::Codename "stretch";
+APT::FTPArchive::Release::Origin "Debian";
+APT::FTPArchive::Release::Components "main contrib non-free";
+APT::FTPArchive::Release::Label "Debian";
+APT::FTPArchive::Release::Architectures "amd-64";
+APT::FTPArchive::Release::Suite "testing";
