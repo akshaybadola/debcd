@@ -21,7 +21,7 @@ dependencies based on the currently installed packages in the system.
 5. After all the required packages are there in the cache, run
 `apt-move -c apt-move.conf move`, though it'll complain about
 corruption. In that case, run `apt-move -c apt-move.conf fsck` and
-then *apt-move -c apt-move.conf move*.
+then `apt-move -c apt-move.conf move`.
 
 6. To override the priorities of the packages so that all the packages
 you've cached are installed you have to replace all "optional" and
